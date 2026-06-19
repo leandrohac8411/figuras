@@ -1,0 +1,24 @@
+/* =========================================
+   GRID STYLES - Figurinhas Display
+   ========================================= */
+
+.group-content {
+  display: grid;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg) 0;
+}
+
+/* Placeholder for grid items - to be implemented in next tasks */
+
+@media (max-width: 640px) {
+  .group-content {
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .group-content {
+    gap: var(--spacing-lg);
+  }
+}
