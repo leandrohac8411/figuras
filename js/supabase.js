@@ -50,6 +50,16 @@ async function getFigurinhasByPais(paisSigla) {
     .order('codigo');
 
   if (error) console.error('Error fetching figurinhas:', error);
+
+  // Sort numerically (MEX1, MEX2, ... MEX20 instead of MEX1, MEX10, MEX11, ...)
+  if (data) {
+    data.sort((a, b) => {
+      const numA = parseInt(a.codigo.replace(/\D/g, ''));
+      const numB = parseInt(b.codigo.replace(/\D/g, ''));
+      return numA - numB;
+    });
+  }
+
   return data || [];
 }
 
@@ -78,6 +88,9 @@ async function toggleFigurinha(codigo) {
     console.error('Error updating figurinha:', updateError);
     return null;
   }
+
+  // Wait for server to process the update before next query
+  await new Promise(resolve => setTimeout(resolve, 100));
 
   return newStatus;
 }

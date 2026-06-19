@@ -5,23 +5,18 @@
 // Toggle sticker (mark as have/not have)
 async function toggleSticker(codigo) {
   try {
-    console.log(`🔄 Toggling ${codigo}...`);
     const result = await toggleFigurinha(codigo);
-    console.log(`✓ Toggle result for ${codigo}:`, result);
 
     if (result !== null) {
-      showToast(`✓ Figurinha ${codigo} ${result ? 'marcada' : 'desmarcada'}`, 'success');
-      console.log(`🔄 Refreshing group...`);
+      showToast(`Figurinha ${codigo} ${result ? 'marcada' : 'desmarcada'}`, 'success');
       await refreshCurrentGroup();
-      console.log(`✓ Group refreshed`);
       await updateHeaderStats();
-      console.log(`✓ Stats updated`);
     } else {
-      showToast(`❌ Erro ao atualizar ${codigo}`, 'error');
+      showToast(`Erro ao atualizar ${codigo}`, 'error');
     }
   } catch (error) {
-    console.error('❌ Error toggling sticker:', error);
-    showToast('❌ Erro ao atualizar figurinha', 'error');
+    console.error('Error toggling sticker:', error);
+    showToast('Erro ao atualizar figurinha', 'error');
   }
 }
 
