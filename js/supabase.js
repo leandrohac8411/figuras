@@ -53,11 +53,14 @@ async function getFigurinhasByPais(paisSigla) {
 
   // Sort numerically (MEX1, MEX2, ... MEX20 instead of MEX1, MEX10, MEX11, ...)
   if (data) {
+    const before = data.slice(0, 3).map(f => f.codigo);
     data.sort((a, b) => {
       const numA = parseInt(a.codigo.replace(/\D/g, ''));
       const numB = parseInt(b.codigo.replace(/\D/g, ''));
       return numA - numB;
     });
+    const after = data.slice(0, 3).map(f => f.codigo);
+    console.log(`[SORT] ${paisSigla}: before=${before} after=${after}`);
   }
 
   return data || [];
