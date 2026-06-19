@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seed Database - Álbum 2026</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .log {
+      border: 1px solid #ddd;
+      padding: 10px;
+      height: 300px;
+      overflow-y: auto;
+      background: #f5f5f5;
+      font-family: monospace;
+      font-size: 12px;
+      margin: 20px 0;
+    }
+    .log-entry { margin: 5px 0; }
+    .log-success { color: green; }
+    .log-error { color: red; }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌱 Seed Database</h1>
+  <p>Click the button below to populate your Supabase database with groups, countries, and stickers.</p>
+
+  <button id="seedBtn">Start Seed</button>
+  <button id="clearBtn">Clear Log</button>
+
+  <div class="log" id="log"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const logDiv = document.getElementById('log');
+    const seedBtn = document.getElementById('seedBtn');
+    const clearBtn = document.getElementById('clearBtn');
+
+    function addLog(message, type = 'info') {
+      const entry = document.createElement('div');
+      entry.className = `log-entry log-${type}`;
+      entry.textContent = message;
+      logDiv.appendChild(entry);
+      logDiv.scrollTop = logDiv.scrollHeight;
+    }
+
+    clearBtn.addEventListener('click', () => {
+      logDiv.innerHTML = '';
+    });
+
+    seedBtn.addEventListener('click', async () => {
+      seedBtn.disabled = true;
+
+      try {
+        const SUPABASE_URL = prompt('Enter SUPABASE_URL:');
+        const SUPABASE_ANON_KEY = prompt('Enter SUPABASE_ANON_KEY:');
+
+        if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+          addLog('❌ Missing Supabase credentials', 'error');
+          seedBtn.disabled = false;
+          return;
+        }
+
+        const { createClient } = window.supabase;
+        const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        addLog('🌱 Starting seed...');
+
+        // Fetch figurinhas.json
+        const response = await fetch('./data/figurinhas.json');
+        const data = await response.json();
+
+        // Seed grupos
+        addLog('📋 Seeding grupos...');
+        for (const grupo of data.grupos) {
+          const { error } = await supabase
+            .from('grupos')
+            .upsert([grupo], { onConflict: 'grupo' });
+          if (error) addLog(`⚠️  Grupo ${grupo.grupo}: ${error.message}`, 'error');
+        }
+        addLog(`✓ ${data.grupos.length} grupos seeded`);
+
+        // Seed paises
+        addLog('🌍 Seeding paises...');
+        for (const pais of data.paises) {
+          const { error } = await supabase
+            .from('paises')
+            .upsert([pais], { onConflict: 'sigla' });
+          if (error) addLog(`⚠️  País ${pais.sigla}: ${error.message}`, 'error');
+        }
+        addLog(`✓ ${data.paises.length} países seeded`);
+
+        // Seed figurinhas
+        addLog('🖼️  Seeding figurinhas...');
+        const batchSize = 50;
+        for (let i = 0; i < data.figurinhas.length; i += batchSize) {
+          const batch = data.figurinhas.slice(i, i + batchSize);
+          const { error } = await supabase
+            .from('figurinhas')
+            .upsert(batch, { onConflict: 'codigo' });
+          if (error) addLog(`⚠️  Batch ${i}-${i + batchSize}: ${error.message}`, 'error');
+          addLog(`  ✓ Seeded ${Math.min(i + batchSize, data.figurinhas.length)}/${data.figurinhas.length} figurinhas`);
+        }
+
+        addLog('✅ Seed complete!', 'success');
+
+      } catch (error) {
+        addLog(`❌ Error: ${error.message}`, 'error');
+      } finally {
+        seedBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
