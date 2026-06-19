@@ -97,21 +97,49 @@ async function addDupModal(paisSigla) {
   };
 }
 
-// Show duplicates list
+// Show duplicates in beautiful modal
 async function showDuplicatas() {
+  const modal = document.getElementById('duplicatasModalOverlay');
+  const content = document.getElementById('duplicatasModalContent');
+  const closeBtn = document.getElementById('duplicatasModalClose');
+  const okBtn = document.getElementById('duplicatasModalOk');
+
   const duplicatas = await getFigurinhasComDuplicatas();
 
   if (duplicatas.length === 0) {
-    alert('Você não tem figurinhas duplicadas');
-    return;
+    content.innerHTML = `
+      <div class="duplicatas-empty">
+        <div class="duplicatas-empty-icon">📭</div>
+        <p>Você ainda não tem figurinhas duplicadas</p>
+      </div>
+    `;
+  } else {
+    let html = '<div class="duplicatas-list">';
+    duplicatas.forEach(fig => {
+      html += `
+        <div class="duplicata-item">
+          <div class="duplicata-info">
+            <div class="duplicata-code">${fig.codigo}</div>
+            <div class="duplicata-name">${fig.nome}</div>
+          </div>
+          <div class="duplicata-count">×${fig.duplicatas}</div>
+        </div>
+      `;
+    });
+    html += '</div>';
+    content.innerHTML = html;
   }
 
-  let message = 'Suas figurinhas duplicadas:\n\n';
-  duplicatas.forEach(fig => {
-    message += `${fig.codigo} - ${fig.nome}: ${fig.duplicatas}x\n`;
-  });
+  modal.classList.add('active');
 
-  alert(message);
+  closeBtn.onclick = () => modal.classList.remove('active');
+  okBtn.onclick = () => modal.classList.remove('active');
+
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('active');
+    }
+  };
 }
 
 // Select group
