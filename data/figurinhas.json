@@ -219,63 +219,63 @@
       "grupo": "I"
     },
     {
-      "sigla": "POR",
-      "nome": "Portugal",
-      "grupo": "J"
-    },
-    {
-      "sigla": "COD",
-      "nome": "Congo DR",
-      "grupo": "J"
-    },
-    {
-      "sigla": "UZB",
-      "nome": "Uzbekistan",
-      "grupo": "J"
-    },
-    {
-      "sigla": "COL",
-      "nome": "Colombia",
-      "grupo": "J"
-    },
-    {
-      "sigla": "ENG",
-      "nome": "England",
-      "grupo": "K"
-    },
-    {
-      "sigla": "CRO",
-      "nome": "Croatia",
-      "grupo": "K"
-    },
-    {
-      "sigla": "GHA",
-      "nome": "Ghana",
-      "grupo": "K"
-    },
-    {
-      "sigla": "PAN",
-      "nome": "Panama",
-      "grupo": "K"
-    },
-    {
       "sigla": "ARG",
       "nome": "Argentina",
-      "grupo": "L"
+      "grupo": "J"
     },
     {
       "sigla": "ALG",
       "nome": "Algeria",
-      "grupo": "L"
+      "grupo": "J"
     },
     {
       "sigla": "AUT",
       "nome": "Austria",
-      "grupo": "L"
+      "grupo": "J"
     },
     {
       "sigla": "JOR",
       "nome": "Jordan",
+      "grupo": "J"
+    },
+    {
+      "sigla": "POR",
+      "nome": "Portugal",
+      "grupo": "K"
+    },
+    {
+      "sigla": "COD",
+      "nome": "Congo DR",
+      "grupo": "K"
+    },
+    {
+      "sigla": "UZB",
+      "nome": "Uzbekistan",
+      "grupo": "K"
+    },
+    {
+      "sigla": "COL",
+      "nome": "Colombia",
+      "grupo": "K"
+    },
+    {
+      "sigla": "ENG",
+      "nome": "England",
+      "grupo": "L"
+    },
+    {
+      "sigla": "CRO",
+      "nome": "Croatia",
+      "grupo": "L"
+    },
+    {
+      "sigla": "GHA",
+      "nome": "Ghana",
+      "grupo": "L"
+    },
+    {
+      "sigla": "PAN",
+      "nome": "Panama",
       "grupo": "L"
     }
   ],
@@ -6761,1450 +6761,10 @@
       "duplicatas": 0
     },
     {
-      "codigo": "POR1",
-      "nome": "Player 1",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR2",
-      "nome": "Player 2",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR3",
-      "nome": "Player 3",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR4",
-      "nome": "Player 4",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR5",
-      "nome": "Player 5",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR6",
-      "nome": "Player 6",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR7",
-      "nome": "Player 7",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR8",
-      "nome": "Player 8",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR9",
-      "nome": "Player 9",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR10",
-      "nome": "Player 10",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR11",
-      "nome": "Player 11",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR12",
-      "nome": "Player 12",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR13",
-      "nome": "Player 13",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR14",
-      "nome": "Player 14",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR15",
-      "nome": "Player 15",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR16",
-      "nome": "Player 16",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR17",
-      "nome": "Player 17",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR18",
-      "nome": "Player 18",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR19",
-      "nome": "Player 19",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "POR20",
-      "nome": "Player 20",
-      "pais_sigla": "POR",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD1",
-      "nome": "Player 1",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD2",
-      "nome": "Player 2",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD3",
-      "nome": "Player 3",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD4",
-      "nome": "Player 4",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD5",
-      "nome": "Player 5",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD6",
-      "nome": "Player 6",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD7",
-      "nome": "Player 7",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD8",
-      "nome": "Player 8",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD9",
-      "nome": "Player 9",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD10",
-      "nome": "Player 10",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD11",
-      "nome": "Player 11",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD12",
-      "nome": "Player 12",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD13",
-      "nome": "Player 13",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD14",
-      "nome": "Player 14",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD15",
-      "nome": "Player 15",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD16",
-      "nome": "Player 16",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD17",
-      "nome": "Player 17",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD18",
-      "nome": "Player 18",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD19",
-      "nome": "Player 19",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COD20",
-      "nome": "Player 20",
-      "pais_sigla": "COD",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB1",
-      "nome": "Player 1",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB2",
-      "nome": "Player 2",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB3",
-      "nome": "Player 3",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB4",
-      "nome": "Player 4",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB5",
-      "nome": "Player 5",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB6",
-      "nome": "Player 6",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB7",
-      "nome": "Player 7",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB8",
-      "nome": "Player 8",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB9",
-      "nome": "Player 9",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB10",
-      "nome": "Player 10",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB11",
-      "nome": "Player 11",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB12",
-      "nome": "Player 12",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB13",
-      "nome": "Player 13",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB14",
-      "nome": "Player 14",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB15",
-      "nome": "Player 15",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB16",
-      "nome": "Player 16",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB17",
-      "nome": "Player 17",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB18",
-      "nome": "Player 18",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB19",
-      "nome": "Player 19",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "UZB20",
-      "nome": "Player 20",
-      "pais_sigla": "UZB",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL1",
-      "nome": "Player 1",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL2",
-      "nome": "Player 2",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL3",
-      "nome": "Player 3",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL4",
-      "nome": "Player 4",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL5",
-      "nome": "Player 5",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL6",
-      "nome": "Player 6",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL7",
-      "nome": "Player 7",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL8",
-      "nome": "Player 8",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL9",
-      "nome": "Player 9",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL10",
-      "nome": "Player 10",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL11",
-      "nome": "Player 11",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL12",
-      "nome": "Player 12",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL13",
-      "nome": "Player 13",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL14",
-      "nome": "Player 14",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL15",
-      "nome": "Player 15",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL16",
-      "nome": "Player 16",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL17",
-      "nome": "Player 17",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL18",
-      "nome": "Player 18",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL19",
-      "nome": "Player 19",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "COL20",
-      "nome": "Player 20",
-      "pais_sigla": "COL",
-      "grupo": "J",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG1",
-      "nome": "Player 1",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG2",
-      "nome": "Player 2",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG3",
-      "nome": "Player 3",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG4",
-      "nome": "Player 4",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG5",
-      "nome": "Player 5",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG6",
-      "nome": "Player 6",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG7",
-      "nome": "Player 7",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG8",
-      "nome": "Player 8",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG9",
-      "nome": "Player 9",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG10",
-      "nome": "Player 10",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG11",
-      "nome": "Player 11",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG12",
-      "nome": "Player 12",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG13",
-      "nome": "Player 13",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG14",
-      "nome": "Player 14",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG15",
-      "nome": "Player 15",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG16",
-      "nome": "Player 16",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG17",
-      "nome": "Player 17",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG18",
-      "nome": "Player 18",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG19",
-      "nome": "Player 19",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "ENG20",
-      "nome": "Player 20",
-      "pais_sigla": "ENG",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO1",
-      "nome": "Player 1",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO2",
-      "nome": "Player 2",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO3",
-      "nome": "Player 3",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO4",
-      "nome": "Player 4",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO5",
-      "nome": "Player 5",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO6",
-      "nome": "Player 6",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO7",
-      "nome": "Player 7",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO8",
-      "nome": "Player 8",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO9",
-      "nome": "Player 9",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO10",
-      "nome": "Player 10",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO11",
-      "nome": "Player 11",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO12",
-      "nome": "Player 12",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO13",
-      "nome": "Player 13",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO14",
-      "nome": "Player 14",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO15",
-      "nome": "Player 15",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO16",
-      "nome": "Player 16",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO17",
-      "nome": "Player 17",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO18",
-      "nome": "Player 18",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO19",
-      "nome": "Player 19",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "CRO20",
-      "nome": "Player 20",
-      "pais_sigla": "CRO",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA1",
-      "nome": "Player 1",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA2",
-      "nome": "Player 2",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA3",
-      "nome": "Player 3",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA4",
-      "nome": "Player 4",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA5",
-      "nome": "Player 5",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA6",
-      "nome": "Player 6",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA7",
-      "nome": "Player 7",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA8",
-      "nome": "Player 8",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA9",
-      "nome": "Player 9",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA10",
-      "nome": "Player 10",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA11",
-      "nome": "Player 11",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA12",
-      "nome": "Player 12",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA13",
-      "nome": "Player 13",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA14",
-      "nome": "Player 14",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA15",
-      "nome": "Player 15",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA16",
-      "nome": "Player 16",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA17",
-      "nome": "Player 17",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA18",
-      "nome": "Player 18",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA19",
-      "nome": "Player 19",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "GHA20",
-      "nome": "Player 20",
-      "pais_sigla": "GHA",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN1",
-      "nome": "Player 1",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN2",
-      "nome": "Player 2",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN3",
-      "nome": "Player 3",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN4",
-      "nome": "Player 4",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN5",
-      "nome": "Player 5",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN6",
-      "nome": "Player 6",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN7",
-      "nome": "Player 7",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN8",
-      "nome": "Player 8",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN9",
-      "nome": "Player 9",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN10",
-      "nome": "Player 10",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN11",
-      "nome": "Player 11",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN12",
-      "nome": "Player 12",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN13",
-      "nome": "Player 13",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN14",
-      "nome": "Player 14",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN15",
-      "nome": "Player 15",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN16",
-      "nome": "Player 16",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN17",
-      "nome": "Player 17",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN18",
-      "nome": "Player 18",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN19",
-      "nome": "Player 19",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
-      "codigo": "PAN20",
-      "nome": "Player 20",
-      "pais_sigla": "PAN",
-      "grupo": "K",
-      "categoria": "Jogador",
-      "tem": false,
-      "duplicatas": 0
-    },
-    {
       "codigo": "ARG1",
       "nome": "Player 1",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8213,7 +6773,7 @@
       "codigo": "ARG2",
       "nome": "Player 2",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8222,7 +6782,7 @@
       "codigo": "ARG3",
       "nome": "Player 3",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8231,7 +6791,7 @@
       "codigo": "ARG4",
       "nome": "Player 4",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8240,7 +6800,7 @@
       "codigo": "ARG5",
       "nome": "Player 5",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8249,7 +6809,7 @@
       "codigo": "ARG6",
       "nome": "Player 6",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8258,7 +6818,7 @@
       "codigo": "ARG7",
       "nome": "Player 7",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8267,7 +6827,7 @@
       "codigo": "ARG8",
       "nome": "Player 8",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8276,7 +6836,7 @@
       "codigo": "ARG9",
       "nome": "Player 9",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8285,7 +6845,7 @@
       "codigo": "ARG10",
       "nome": "Player 10",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8294,7 +6854,7 @@
       "codigo": "ARG11",
       "nome": "Player 11",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8303,7 +6863,7 @@
       "codigo": "ARG12",
       "nome": "Player 12",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8312,7 +6872,7 @@
       "codigo": "ARG13",
       "nome": "Player 13",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8321,7 +6881,7 @@
       "codigo": "ARG14",
       "nome": "Player 14",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8330,7 +6890,7 @@
       "codigo": "ARG15",
       "nome": "Player 15",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8339,7 +6899,7 @@
       "codigo": "ARG16",
       "nome": "Player 16",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8348,7 +6908,7 @@
       "codigo": "ARG17",
       "nome": "Player 17",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8357,7 +6917,7 @@
       "codigo": "ARG18",
       "nome": "Player 18",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8366,7 +6926,7 @@
       "codigo": "ARG19",
       "nome": "Player 19",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8375,7 +6935,7 @@
       "codigo": "ARG20",
       "nome": "Player 20",
       "pais_sigla": "ARG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8384,7 +6944,7 @@
       "codigo": "ALG1",
       "nome": "Player 1",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8393,7 +6953,7 @@
       "codigo": "ALG2",
       "nome": "Player 2",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8402,7 +6962,7 @@
       "codigo": "ALG3",
       "nome": "Player 3",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8411,7 +6971,7 @@
       "codigo": "ALG4",
       "nome": "Player 4",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8420,7 +6980,7 @@
       "codigo": "ALG5",
       "nome": "Player 5",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8429,7 +6989,7 @@
       "codigo": "ALG6",
       "nome": "Player 6",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8438,7 +6998,7 @@
       "codigo": "ALG7",
       "nome": "Player 7",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8447,7 +7007,7 @@
       "codigo": "ALG8",
       "nome": "Player 8",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8456,7 +7016,7 @@
       "codigo": "ALG9",
       "nome": "Player 9",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8465,7 +7025,7 @@
       "codigo": "ALG10",
       "nome": "Player 10",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8474,7 +7034,7 @@
       "codigo": "ALG11",
       "nome": "Player 11",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8483,7 +7043,7 @@
       "codigo": "ALG12",
       "nome": "Player 12",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8492,7 +7052,7 @@
       "codigo": "ALG13",
       "nome": "Player 13",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8501,7 +7061,7 @@
       "codigo": "ALG14",
       "nome": "Player 14",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8510,7 +7070,7 @@
       "codigo": "ALG15",
       "nome": "Player 15",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8519,7 +7079,7 @@
       "codigo": "ALG16",
       "nome": "Player 16",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8528,7 +7088,7 @@
       "codigo": "ALG17",
       "nome": "Player 17",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8537,7 +7097,7 @@
       "codigo": "ALG18",
       "nome": "Player 18",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8546,7 +7106,7 @@
       "codigo": "ALG19",
       "nome": "Player 19",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8555,7 +7115,7 @@
       "codigo": "ALG20",
       "nome": "Player 20",
       "pais_sigla": "ALG",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8564,7 +7124,7 @@
       "codigo": "AUT1",
       "nome": "Player 1",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8573,7 +7133,7 @@
       "codigo": "AUT2",
       "nome": "Player 2",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8582,7 +7142,7 @@
       "codigo": "AUT3",
       "nome": "Player 3",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8591,7 +7151,7 @@
       "codigo": "AUT4",
       "nome": "Player 4",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8600,7 +7160,7 @@
       "codigo": "AUT5",
       "nome": "Player 5",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8609,7 +7169,7 @@
       "codigo": "AUT6",
       "nome": "Player 6",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8618,7 +7178,7 @@
       "codigo": "AUT7",
       "nome": "Player 7",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8627,7 +7187,7 @@
       "codigo": "AUT8",
       "nome": "Player 8",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8636,7 +7196,7 @@
       "codigo": "AUT9",
       "nome": "Player 9",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8645,7 +7205,7 @@
       "codigo": "AUT10",
       "nome": "Player 10",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8654,7 +7214,7 @@
       "codigo": "AUT11",
       "nome": "Player 11",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8663,7 +7223,7 @@
       "codigo": "AUT12",
       "nome": "Player 12",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8672,7 +7232,7 @@
       "codigo": "AUT13",
       "nome": "Player 13",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8681,7 +7241,7 @@
       "codigo": "AUT14",
       "nome": "Player 14",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8690,7 +7250,7 @@
       "codigo": "AUT15",
       "nome": "Player 15",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8699,7 +7259,7 @@
       "codigo": "AUT16",
       "nome": "Player 16",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8708,7 +7268,7 @@
       "codigo": "AUT17",
       "nome": "Player 17",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8717,7 +7277,7 @@
       "codigo": "AUT18",
       "nome": "Player 18",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8726,7 +7286,7 @@
       "codigo": "AUT19",
       "nome": "Player 19",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8735,7 +7295,7 @@
       "codigo": "AUT20",
       "nome": "Player 20",
       "pais_sigla": "AUT",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8744,7 +7304,7 @@
       "codigo": "JOR1",
       "nome": "Player 1",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8753,7 +7313,7 @@
       "codigo": "JOR2",
       "nome": "Player 2",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8762,7 +7322,7 @@
       "codigo": "JOR3",
       "nome": "Player 3",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8771,7 +7331,7 @@
       "codigo": "JOR4",
       "nome": "Player 4",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8780,7 +7340,7 @@
       "codigo": "JOR5",
       "nome": "Player 5",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8789,7 +7349,7 @@
       "codigo": "JOR6",
       "nome": "Player 6",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8798,7 +7358,7 @@
       "codigo": "JOR7",
       "nome": "Player 7",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8807,7 +7367,7 @@
       "codigo": "JOR8",
       "nome": "Player 8",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8816,7 +7376,7 @@
       "codigo": "JOR9",
       "nome": "Player 9",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8825,7 +7385,7 @@
       "codigo": "JOR10",
       "nome": "Player 10",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8834,7 +7394,7 @@
       "codigo": "JOR11",
       "nome": "Player 11",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8843,7 +7403,7 @@
       "codigo": "JOR12",
       "nome": "Player 12",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8852,7 +7412,7 @@
       "codigo": "JOR13",
       "nome": "Player 13",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8861,7 +7421,7 @@
       "codigo": "JOR14",
       "nome": "Player 14",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8870,7 +7430,7 @@
       "codigo": "JOR15",
       "nome": "Player 15",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8879,7 +7439,7 @@
       "codigo": "JOR16",
       "nome": "Player 16",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8888,7 +7448,7 @@
       "codigo": "JOR17",
       "nome": "Player 17",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8897,7 +7457,7 @@
       "codigo": "JOR18",
       "nome": "Player 18",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8906,7 +7466,7 @@
       "codigo": "JOR19",
       "nome": "Player 19",
       "pais_sigla": "JOR",
-      "grupo": "L",
+      "grupo": "J",
       "categoria": "Jogador",
       "tem": false,
       "duplicatas": 0
@@ -8915,6 +7475,1446 @@
       "codigo": "JOR20",
       "nome": "Player 20",
       "pais_sigla": "JOR",
+      "grupo": "J",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR1",
+      "nome": "Player 1",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR2",
+      "nome": "Player 2",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR3",
+      "nome": "Player 3",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR4",
+      "nome": "Player 4",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR5",
+      "nome": "Player 5",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR6",
+      "nome": "Player 6",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR7",
+      "nome": "Player 7",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR8",
+      "nome": "Player 8",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR9",
+      "nome": "Player 9",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR10",
+      "nome": "Player 10",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR11",
+      "nome": "Player 11",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR12",
+      "nome": "Player 12",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR13",
+      "nome": "Player 13",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR14",
+      "nome": "Player 14",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR15",
+      "nome": "Player 15",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR16",
+      "nome": "Player 16",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR17",
+      "nome": "Player 17",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR18",
+      "nome": "Player 18",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR19",
+      "nome": "Player 19",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "POR20",
+      "nome": "Player 20",
+      "pais_sigla": "POR",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD1",
+      "nome": "Player 1",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD2",
+      "nome": "Player 2",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD3",
+      "nome": "Player 3",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD4",
+      "nome": "Player 4",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD5",
+      "nome": "Player 5",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD6",
+      "nome": "Player 6",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD7",
+      "nome": "Player 7",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD8",
+      "nome": "Player 8",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD9",
+      "nome": "Player 9",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD10",
+      "nome": "Player 10",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD11",
+      "nome": "Player 11",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD12",
+      "nome": "Player 12",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD13",
+      "nome": "Player 13",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD14",
+      "nome": "Player 14",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD15",
+      "nome": "Player 15",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD16",
+      "nome": "Player 16",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD17",
+      "nome": "Player 17",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD18",
+      "nome": "Player 18",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD19",
+      "nome": "Player 19",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COD20",
+      "nome": "Player 20",
+      "pais_sigla": "COD",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB1",
+      "nome": "Player 1",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB2",
+      "nome": "Player 2",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB3",
+      "nome": "Player 3",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB4",
+      "nome": "Player 4",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB5",
+      "nome": "Player 5",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB6",
+      "nome": "Player 6",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB7",
+      "nome": "Player 7",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB8",
+      "nome": "Player 8",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB9",
+      "nome": "Player 9",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB10",
+      "nome": "Player 10",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB11",
+      "nome": "Player 11",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB12",
+      "nome": "Player 12",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB13",
+      "nome": "Player 13",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB14",
+      "nome": "Player 14",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB15",
+      "nome": "Player 15",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB16",
+      "nome": "Player 16",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB17",
+      "nome": "Player 17",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB18",
+      "nome": "Player 18",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB19",
+      "nome": "Player 19",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "UZB20",
+      "nome": "Player 20",
+      "pais_sigla": "UZB",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL1",
+      "nome": "Player 1",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL2",
+      "nome": "Player 2",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL3",
+      "nome": "Player 3",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL4",
+      "nome": "Player 4",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL5",
+      "nome": "Player 5",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL6",
+      "nome": "Player 6",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL7",
+      "nome": "Player 7",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL8",
+      "nome": "Player 8",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL9",
+      "nome": "Player 9",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL10",
+      "nome": "Player 10",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL11",
+      "nome": "Player 11",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL12",
+      "nome": "Player 12",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL13",
+      "nome": "Player 13",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL14",
+      "nome": "Player 14",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL15",
+      "nome": "Player 15",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL16",
+      "nome": "Player 16",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL17",
+      "nome": "Player 17",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL18",
+      "nome": "Player 18",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL19",
+      "nome": "Player 19",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "COL20",
+      "nome": "Player 20",
+      "pais_sigla": "COL",
+      "grupo": "K",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG1",
+      "nome": "Player 1",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG2",
+      "nome": "Player 2",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG3",
+      "nome": "Player 3",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG4",
+      "nome": "Player 4",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG5",
+      "nome": "Player 5",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG6",
+      "nome": "Player 6",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG7",
+      "nome": "Player 7",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG8",
+      "nome": "Player 8",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG9",
+      "nome": "Player 9",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG10",
+      "nome": "Player 10",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG11",
+      "nome": "Player 11",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG12",
+      "nome": "Player 12",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG13",
+      "nome": "Player 13",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG14",
+      "nome": "Player 14",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG15",
+      "nome": "Player 15",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG16",
+      "nome": "Player 16",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG17",
+      "nome": "Player 17",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG18",
+      "nome": "Player 18",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG19",
+      "nome": "Player 19",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "ENG20",
+      "nome": "Player 20",
+      "pais_sigla": "ENG",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO1",
+      "nome": "Player 1",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO2",
+      "nome": "Player 2",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO3",
+      "nome": "Player 3",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO4",
+      "nome": "Player 4",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO5",
+      "nome": "Player 5",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO6",
+      "nome": "Player 6",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO7",
+      "nome": "Player 7",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO8",
+      "nome": "Player 8",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO9",
+      "nome": "Player 9",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO10",
+      "nome": "Player 10",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO11",
+      "nome": "Player 11",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO12",
+      "nome": "Player 12",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO13",
+      "nome": "Player 13",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO14",
+      "nome": "Player 14",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO15",
+      "nome": "Player 15",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO16",
+      "nome": "Player 16",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO17",
+      "nome": "Player 17",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO18",
+      "nome": "Player 18",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO19",
+      "nome": "Player 19",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "CRO20",
+      "nome": "Player 20",
+      "pais_sigla": "CRO",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA1",
+      "nome": "Player 1",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA2",
+      "nome": "Player 2",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA3",
+      "nome": "Player 3",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA4",
+      "nome": "Player 4",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA5",
+      "nome": "Player 5",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA6",
+      "nome": "Player 6",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA7",
+      "nome": "Player 7",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA8",
+      "nome": "Player 8",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA9",
+      "nome": "Player 9",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA10",
+      "nome": "Player 10",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA11",
+      "nome": "Player 11",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA12",
+      "nome": "Player 12",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA13",
+      "nome": "Player 13",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA14",
+      "nome": "Player 14",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA15",
+      "nome": "Player 15",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA16",
+      "nome": "Player 16",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA17",
+      "nome": "Player 17",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA18",
+      "nome": "Player 18",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA19",
+      "nome": "Player 19",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "GHA20",
+      "nome": "Player 20",
+      "pais_sigla": "GHA",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN1",
+      "nome": "Player 1",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN2",
+      "nome": "Player 2",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN3",
+      "nome": "Player 3",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN4",
+      "nome": "Player 4",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN5",
+      "nome": "Player 5",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN6",
+      "nome": "Player 6",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN7",
+      "nome": "Player 7",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN8",
+      "nome": "Player 8",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN9",
+      "nome": "Player 9",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN10",
+      "nome": "Player 10",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN11",
+      "nome": "Player 11",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN12",
+      "nome": "Player 12",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN13",
+      "nome": "Player 13",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN14",
+      "nome": "Player 14",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN15",
+      "nome": "Player 15",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN16",
+      "nome": "Player 16",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN17",
+      "nome": "Player 17",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN18",
+      "nome": "Player 18",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN19",
+      "nome": "Player 19",
+      "pais_sigla": "PAN",
+      "grupo": "L",
+      "categoria": "Jogador",
+      "tem": false,
+      "duplicatas": 0
+    },
+    {
+      "codigo": "PAN20",
+      "nome": "Player 20",
+      "pais_sigla": "PAN",
       "grupo": "L",
       "categoria": "Jogador",
       "tem": false,
