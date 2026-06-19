@@ -17,21 +17,84 @@ async function toggleSticker(codigo) {
   }
 }
 
-// Add duplicate
+// Add duplicate with modal
 async function addDupModal(paisSigla) {
-  const codigo = prompt('Digite o código da figurinha (ex: BRA1):');
-  if (!codigo) return;
+  const modal = document.getElementById('dupModalOverlay');
+  const input = document.getElementById('dupModalInput');
+  const suggestions = document.getElementById('dupSuggestions');
+  const okBtn = document.getElementById('dupModalOk');
+  const cancelBtn = document.getElementById('dupModalCancel');
+  const closeBtn = document.getElementById('dupModalClose');
 
-  try {
-    const result = await addDuplicata(codigo);
-    if (result !== null) {
-      showToast(`Duplicata adicionada para ${codigo}`, 'success');
-      await refreshCurrentGroup();
+  modal.classList.add('active');
+  input.value = '';
+  suggestions.innerHTML = '';
+  input.focus();
+
+  // Load all stickers for suggestions
+  const figurinhas = await getFigurinhasByPais(paisSigla);
+
+  input.addEventListener('input', () => {
+    const searchTerm = input.value.toUpperCase();
+    suggestions.innerHTML = '';
+
+    if (searchTerm.length > 0) {
+      const filtered = figurinhas.filter(fig =>
+        fig.codigo.startsWith(searchTerm)
+      );
+
+      filtered.forEach(fig => {
+        const div = document.createElement('div');
+        div.className = 'dup-suggestion';
+        div.innerHTML = `
+          <div class="dup-suggestion-code">${fig.codigo}</div>
+          <div class="dup-suggestion-name">${fig.nome}</div>
+        `;
+        div.addEventListener('click', () => {
+          input.value = fig.codigo;
+          input.focus();
+        });
+        suggestions.appendChild(div);
+      });
     }
-  } catch (error) {
-    console.error('Error adding duplicate:', error);
-    showToast('Erro ao adicionar duplicata', 'error');
-  }
+  });
+
+  okBtn.onclick = async () => {
+    const codigo = input.value.trim();
+    if (!codigo) {
+      showToast('Digite o código da figurinha', 'error');
+      return;
+    }
+
+    try {
+      const result = await addDuplicata(codigo);
+      if (result !== null) {
+        showToast(`✓ Duplicata adicionada para ${codigo}`, 'success');
+        modal.classList.remove('active');
+        await refreshCurrentGroup();
+        await updateHeaderStats();
+      } else {
+        showToast('Figurinha não encontrada', 'error');
+      }
+    } catch (error) {
+      console.error('Error adding duplicate:', error);
+      showToast('Erro ao adicionar duplicata', 'error');
+    }
+  };
+
+  cancelBtn.onclick = () => {
+    modal.classList.remove('active');
+  };
+
+  closeBtn.onclick = () => {
+    modal.classList.remove('active');
+  };
+
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('active');
+    }
+  };
 }
 
 // Show duplicates list

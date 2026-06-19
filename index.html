@@ -56,6 +56,24 @@
     </div>
   </div>
 
+  <!-- Modal: Adicionar Duplicata -->
+  <div class="modal-overlay" id="dupModalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>➕ Adicionar Duplicata</h2>
+        <button class="modal-close" id="dupModalClose">×</button>
+      </div>
+      <div class="modal-body">
+        <input type="text" id="dupModalInput" placeholder="Digite o código (ex: BRA1)" autofocus>
+        <div id="dupSuggestions" class="dup-suggestions"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-primary" id="dupModalOk">OK</button>
+        <button class="btn-secondary" id="dupModalCancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="js/supabase.js"></script>
   <script src="js/utils.js"></script>
