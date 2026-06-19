@@ -182,8 +182,8 @@
 @media (max-width: 640px) {
   .sticker-grid {
     grid-template-columns: repeat(8, 1fr);
-    gap: 5px;
-    padding: 10px;
+    gap: 4px;
+    padding: 8px;
   }
 
   .country-header {
