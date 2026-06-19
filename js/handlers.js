@@ -117,7 +117,19 @@ async function showDuplicatas() {
       </div>
     `;
   } else {
-    let html = '<div class="duplicatas-list">';
+    const totalUnidades = duplicatas.reduce((sum, fig) => sum + fig.duplicatas, 0);
+    let html = `
+      <div class="duplicatas-summary">
+        <div class="duplicatas-stat">
+          <span class="duplicatas-stat-label">Figurinhas</span>
+          <span class="duplicatas-stat-value">${duplicatas.length}</span>
+        </div>
+        <div class="duplicatas-stat">
+          <span class="duplicatas-stat-label">Unidades</span>
+          <span class="duplicatas-stat-value">${totalUnidades}</span>
+        </div>
+      </div>
+      <div class="duplicatas-list">`;
     duplicatas.forEach(fig => {
       html += `
         <div class="duplicata-item">

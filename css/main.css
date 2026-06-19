@@ -571,6 +571,35 @@ main {
   margin-top: 4px;
 }
 
+.duplicatas-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: linear-gradient(135deg, #fff5e6 0%, #fff9f0 100%);
+  border-left: 4px solid var(--color-warning);
+  border-radius: 6px;
+}
+
+.duplicatas-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duplicatas-stat-label {
+  font-size: 12px;
+  color: var(--color-gray-600);
+  font-weight: 600;
+}
+
+.duplicatas-stat-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-warning);
+}
+
 .duplicatas-list {
   display: flex;
   flex-direction: column;
