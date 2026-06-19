@@ -1,0 +1,19 @@
+# Environment
+.env.local
+.env.*.local
+
+# Node (if using node_modules later)
+node_modules/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Superpowers
+.superpowers/
+docs/superpowers/plans/
