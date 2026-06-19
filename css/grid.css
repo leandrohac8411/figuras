@@ -8,9 +8,201 @@
   padding: var(--spacing-lg) 0;
 }
 
-/* Placeholder for grid items - to be implemented in next tasks */
+/* =========================================
+   COUNTRY CARD
+   ========================================= */
+
+.country-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.country-header {
+  padding: var(--spacing-md) var(--spacing-lg);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  min-height: 60px;
+}
+
+.country-flag {
+  font-size: 32px;
+}
+
+.country-info {
+  flex: 1;
+}
+
+.country-info h3 {
+  margin: 0;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+}
+
+.country-info p {
+  margin: var(--spacing-xs) 0 0 0;
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+.country-percent {
+  text-align: right;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+/* =========================================
+   STICKER GRID
+   ========================================= */
+
+.sticker-grid {
+  padding: var(--spacing-md);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 6px;
+}
+
+.sticker {
+  aspect-ratio: 1;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  position: relative;
+}
+
+/* =========================================
+   STICKER STATES
+   ========================================= */
+
+.sticker.has {
+  background: linear-gradient(135deg, var(--color-success) 0%, #45a049 100%);
+  color: var(--color-white);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.sticker.has::before {
+  content: '✓';
+}
+
+.sticker.empty {
+  background: var(--color-white);
+  border: 2px dashed var(--color-gray-300);
+  color: #ddd;
+  font-size: 20px;
+}
+
+.sticker.empty::before {
+  content: '◻';
+}
+
+/* =========================================
+   STICKER INTERACTIONS
+   ========================================= */
+
+.sticker:active {
+  transform: scale(0.95);
+}
+
+.sticker.has:active {
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.2);
+}
+
+/* =========================================
+   STICKER DUPLICATE INDICATOR
+   ========================================= */
+
+.sticker-with-dup {
+  position: relative;
+}
+
+.sticker-dup-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background: var(--color-warning);
+  color: var(--color-white);
+  border-radius: var(--radius-full);
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: var(--font-weight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================================
+   COUNTRY ACTIONS
+   ========================================= */
+
+.country-actions {
+  padding: var(--spacing-md);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+  border-top: 1px solid var(--color-gray-300);
+}
+
+.action-btn {
+  padding: var(--spacing-md);
+  border: 2px solid var(--color-primary);
+  background: var(--color-white);
+  color: var(--color-primary);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-weight-semibold);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.action-btn.danger {
+  border-color: var(--color-danger);
+  color: var(--color-danger);
+}
+
+.action-btn:active {
+  opacity: 0.7;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
 
 @media (max-width: 640px) {
+  .sticker-grid {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .country-header {
+    padding: var(--spacing-sm) var(--spacing-md);
+    gap: 10px;
+  }
+
+  .country-flag {
+    font-size: 28px;
+  }
+
+  .country-info h3 {
+    font-size: 14px;
+  }
+
+  .country-percent {
+    font-size: 16px;
+  }
+
   .group-content {
     gap: var(--spacing-sm);
     padding: var(--spacing-md) 0;
