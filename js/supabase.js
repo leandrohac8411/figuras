@@ -46,21 +46,17 @@ async function getFigurinhasByPais(paisSigla) {
   const { data, error } = await supabaseClient
     .from('figurinhas')
     .select('*')
-    .eq('pais_sigla', paisSigla)
-    .order('codigo');
+    .eq('pais_sigla', paisSigla);
 
   if (error) console.error('Error fetching figurinhas:', error);
 
   // Sort numerically (MEX1, MEX2, ... MEX20 instead of MEX1, MEX10, MEX11, ...)
   if (data) {
-    const before = data.slice(0, 3).map(f => f.codigo);
     data.sort((a, b) => {
-      const numA = parseInt(a.codigo.replace(/\D/g, ''));
-      const numB = parseInt(b.codigo.replace(/\D/g, ''));
+      const numA = parseInt(a.codigo.match(/\d+/)[0]);
+      const numB = parseInt(b.codigo.match(/\d+/)[0]);
       return numA - numB;
     });
-    const after = data.slice(0, 3).map(f => f.codigo);
-    console.log(`[SORT] ${paisSigla}: before=${before} after=${after}`);
   }
 
   return data || [];
