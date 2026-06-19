@@ -125,12 +125,26 @@ async function showDuplicatas() {
             <div class="duplicata-code">${fig.codigo}</div>
             <div class="duplicata-name">${fig.nome}</div>
           </div>
-          <div class="duplicata-count">×${fig.duplicatas}</div>
+          <div class="duplicata-controls">
+            <button class="duplicata-remove-btn" data-codigo="${fig.codigo}">−</button>
+            <div class="duplicata-count">×${fig.duplicatas}</div>
+          </div>
         </div>
       `;
     });
     html += '</div>';
     content.innerHTML = html;
+
+    // Add event listeners for remove buttons
+    document.querySelectorAll('.duplicata-remove-btn').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        const codigo = e.target.dataset.codigo;
+        await removeDuplicata(codigo);
+        showToast(`Duplicata removida de ${codigo}`, 'success');
+        await updateHeaderStats();
+        showDuplicatas(); // Refresh the list
+      });
+    });
   }
 
   modal.classList.add('active');
