@@ -6,8 +6,8 @@ let supabaseClient = null;
 
 // Initialize Supabase connection
 async function initSupabase() {
-  const SUPABASE_URL = 'https://your-project.supabase.co'; // Replace with your URL
-  const SUPABASE_ANON_KEY = 'your-anon-key-here'; // Replace with your key
+  const SUPABASE_URL = 'https://ikahuocnzxykseruynyg.supabase.co'; // Replace with your URL
+  const SUPABASE_ANON_KEY = 'sb_publishable_GvDFMC1MYCm3y8Gff3VcNA_BmM4xWjT'; // Replace with your key
 
   if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
     console.error('❌ Supabase credentials not found. Please update SUPABASE_URL and SUPABASE_ANON_KEY in js/supabase.js');
