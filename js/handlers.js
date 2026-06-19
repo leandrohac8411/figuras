@@ -171,17 +171,47 @@ function setupMenuHandlers() {
   });
 }
 
-// Show dashboard (modal/alert for now)
+// Show dashboard in beautiful modal
 async function showDashboard() {
+  const modal = document.getElementById('dashboardModalOverlay');
+  const content = document.getElementById('dashboardModalContent');
+  const closeBtn = document.getElementById('dashboardModalClose');
+  const okBtn = document.getElementById('dashboardModalOk');
+
   const stats = await getStatisticas();
   const grupos = await getGrupos();
 
-  let message = `📊 Dashboard\n\nTotal: ${stats.coletadas}/${stats.total} (${stats.percentual}%)\n\n`;
+  let html = `
+    <div class="dashboard-stats">
+      <div class="dashboard-total">${stats.coletadas} / ${stats.total}</div>
+      <div class="dashboard-percent">${stats.percentual}% do álbum completo</div>
+    </div>
+
+    <h3 style="margin-top: 20px; margin-bottom: 12px; color: #333;">Progresso por Grupo</h3>
+    <div class="dashboard-groups">
+  `;
 
   for (const grupo of grupos) {
     const groupStats = await getStatisticasByGrupo(grupo.grupo);
-    message += `Grupo ${grupo.grupo}: ${groupStats.coletadas}/${groupStats.total}\n`;
+    html += `
+      <div class="dashboard-group">
+        <div class="dashboard-group-label">Grupo ${grupo.grupo}</div>
+        <div class="dashboard-group-value">${groupStats.coletadas}/${groupStats.total}</div>
+        <div class="dashboard-group-percent">${groupStats.percentual}%</div>
+      </div>
+    `;
   }
 
-  alert(message);
+  html += '</div>';
+  content.innerHTML = html;
+  modal.classList.add('active');
+
+  closeBtn.onclick = () => modal.classList.remove('active');
+  okBtn.onclick = () => modal.classList.remove('active');
+
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('active');
+    }
+  };
 }
