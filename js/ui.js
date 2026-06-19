@@ -87,7 +87,14 @@ function createStickerButton(figurinha) {
   }
 
   button.dataset.codigo = figurinha.codigo;
-  button.title = figurinha.nome;
+  button.title = `${figurinha.codigo} - ${figurinha.nome}`;
+
+  // Add sticker code (BRA1, BRA2, etc)
+  const codeText = document.createElement('div');
+  codeText.style.fontSize = '10px';
+  codeText.style.fontWeight = 'bold';
+  codeText.textContent = figurinha.codigo;
+  button.appendChild(codeText);
 
   // Add duplicate badge if exists
   if (figurinha.duplicatas > 0) {
