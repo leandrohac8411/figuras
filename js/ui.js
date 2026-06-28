@@ -62,6 +62,7 @@ async function createCountryCard(pais) {
     </div>
     <div class="sticker-grid" data-pais="${pais.sigla}"></div>
     <div class="country-actions">
+      <button class="action-btn" onclick="openScanModal('${pais.sigla}')">📸 Scanear</button>
       <button class="action-btn" onclick="addDupModal('${pais.sigla}')">➕ Duplicata</button>
       <button class="action-btn danger" onclick="showDuplicatas()">🔴 Ver Duplicatas</button>
     </div>
