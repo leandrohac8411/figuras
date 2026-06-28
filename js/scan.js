@@ -12,7 +12,7 @@
 // ============================================================================
 
 // Load API key from environment
-const GROQ_API_KEY = 'gsk_YOUR_API_KEY_HERE'; // Replace with actual key from Groq
+const GROQ_API_KEY = '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'; // Replace with actual key from Groq
 const GROQ_API_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
 // Model configuration for vision tasks
