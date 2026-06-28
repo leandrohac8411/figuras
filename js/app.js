@@ -44,6 +44,7 @@ async function initApp() {
     // Setup handlers
     console.log('🎯 Setting up handlers...');
     setupMenuHandlers();
+    initScanHandlers();
 
     console.log('✅ App initialized successfully');
   } catch (error) {
