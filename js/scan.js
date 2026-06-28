@@ -22,26 +22,27 @@ const GROQ_MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct'; // Multimodal mo
 const FIGURINHA_DETECTION_PROMPT = `
 You are an expert at identifying FIFA 2026 World Cup figurinhas (sticker cards) in photos.
 
-Analyze the image and:
-1. Detect all visible figurinhas/cards
-2. Extract player names and numbers
-3. Identify the country represented
-4. Estimate condition (excellent/good/fair/poor)
-5. Detect duplicates if multiple cards are shown
+Analyze the image and detect ALL visible sticker cards. For each card, extract:
+1. The complete sticker CODE in format COUNTRY_CODE + NUMBER (e.g., "BRA1", "MAR5", "MEX20")
+2. Player name shown on the card
+3. Condition: excellent, good, fair, or poor
+4. Confidence level (0.0 to 1.0)
 
-Return a JSON object with this structure:
+IMPORTANT: The "number" field MUST be the COMPLETE code including country prefix (e.g., "MAR3" not "3").
+
+Return ONLY valid JSON with this exact structure:
 {
   "figurinhas": [
     {
-      "number": "card_number",
+      "number": "COMPLETE_CODE_WITH_COUNTRY",
       "player_name": "name",
-      "country": "country",
+      "country": "country_code",
       "condition": "excellent|good|fair|poor",
-      "confidence": 0.0-1.0
+      "confidence": 0.95
     }
   ],
-  "duplicates_found": ["number1", "number2"],
-  "detection_errors": ["error1", "error2"],
+  "duplicates_found": ["CODE1", "CODE2"],
+  "detection_errors": [],
   "scan_quality": "high|medium|low"
 }
 `;
