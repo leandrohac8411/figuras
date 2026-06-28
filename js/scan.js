@@ -20,37 +20,30 @@ const GROQ_MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct'; // Multimodal mo
 
 // Vision prompt templates
 const FIGURINHA_DETECTION_PROMPT = `
-You are analyzing a FIFA 2026 World Cup sticker album page.
+You are analyzing a FIFA 2026 World Cup sticker album page photo.
 
-**TASK: Detect ONLY the sticker cards that ARE GLUED/PASTED into the album.**
+**SIMPLE TASK:** Find all visible sticker cards that are GLUED INTO the album. Ignore empty blank spaces.
 
-In an album photo, you will see:
-- FILLED STICKERS: Cards that are already glued into the album (these are the ones we want)
-- EMPTY SPACES: Blank slots where stickers are missing (IGNORE these)
+For each sticker card you see:
+1. Read the country code and number printed on it (e.g., "MAR7", "BRA15")
+2. Return that code in the JSON
 
-**Instructions:**
-1. Look ONLY for sticker cards that are visibly glued/pasted in the album
-2. For each FILLED sticker found, extract the CODE from the card (e.g., "BRA1", "MAR5")
-3. Read the player name on the card
-4. Estimate condition: excellent, good, fair, or poor
-5. Rate your confidence 0.0-1.0
+That's it. Keep it simple.
 
-**CRITICAL:** Do NOT list empty spaces. Only list cards that ARE IN the album.
-
-Return ONLY this JSON structure:
+Return ONLY valid JSON:
 {
   "figurinhas": [
     {
-      "number": "COMPLETE_CODE_WITH_COUNTRY",
-      "player_name": "player_name",
-      "country": "country_code",
-      "condition": "excellent|good|fair|poor",
-      "confidence": 0.90
+      "number": "MAR7",
+      "player_name": "name if readable",
+      "country": "MAR",
+      "condition": "good",
+      "confidence": 0.85
     }
   ],
-  "duplicates_found": ["CODE1"],
+  "duplicates_found": [],
   "detection_errors": [],
-  "scan_quality": "high|medium|low"
+  "scan_quality": "high"
 }
 `;
 
