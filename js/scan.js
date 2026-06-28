@@ -20,28 +20,35 @@ const GROQ_MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct'; // Multimodal mo
 
 // Vision prompt templates
 const FIGURINHA_DETECTION_PROMPT = `
-You are an expert at identifying FIFA 2026 World Cup figurinhas (sticker cards) in photos.
+You are analyzing a FIFA 2026 World Cup sticker album page.
 
-Analyze the image and detect ALL visible sticker cards. For each card, extract:
-1. The complete sticker CODE in format COUNTRY_CODE + NUMBER (e.g., "BRA1", "MAR5", "MEX20")
-2. Player name shown on the card
-3. Condition: excellent, good, fair, or poor
-4. Confidence level (0.0 to 1.0)
+**TASK: Detect ONLY the sticker cards that ARE GLUED/PASTED into the album.**
 
-IMPORTANT: The "number" field MUST be the COMPLETE code including country prefix (e.g., "MAR3" not "3").
+In an album photo, you will see:
+- FILLED STICKERS: Cards that are already glued into the album (these are the ones we want)
+- EMPTY SPACES: Blank slots where stickers are missing (IGNORE these)
 
-Return ONLY valid JSON with this exact structure:
+**Instructions:**
+1. Look ONLY for sticker cards that are visibly glued/pasted in the album
+2. For each FILLED sticker found, extract the CODE from the card (e.g., "BRA1", "MAR5")
+3. Read the player name on the card
+4. Estimate condition: excellent, good, fair, or poor
+5. Rate your confidence 0.0-1.0
+
+**CRITICAL:** Do NOT list empty spaces. Only list cards that ARE IN the album.
+
+Return ONLY this JSON structure:
 {
   "figurinhas": [
     {
       "number": "COMPLETE_CODE_WITH_COUNTRY",
-      "player_name": "name",
+      "player_name": "player_name",
       "country": "country_code",
       "condition": "excellent|good|fair|poor",
-      "confidence": 0.95
+      "confidence": 0.90
     }
   ],
-  "duplicates_found": ["CODE1", "CODE2"],
+  "duplicates_found": ["CODE1"],
   "detection_errors": [],
   "scan_quality": "high|medium|low"
 }
