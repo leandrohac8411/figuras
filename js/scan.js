@@ -1,6 +1,10 @@
 /**
- * Photo Scan Module - Groq Vision API Integration
- * Handles figurinha recognition and extraction from photos
+ * Photo Scan Module - Scan figurinhas from album photos using Groq Vision
+ *
+ * SETUP REQUIRED:
+ * 1. Get Groq API key from https://console.groq.com
+ * 2. Replace 'GROQ_API_KEY' value below with your actual key
+ * 3. For production, move to backend environment variable
  */
 
 // ============================================================================
@@ -8,7 +12,7 @@
 // ============================================================================
 
 // Load API key from environment
-const GROQ_API_KEY = process.env.GROQ_API_KEY || localStorage.getItem('groq_api_key');
+const GROQ_API_KEY = 'gsk_YOUR_API_KEY_HERE'; // Replace with actual key from Groq
 const GROQ_API_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
 // Model configuration for vision tasks
