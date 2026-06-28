@@ -106,6 +106,47 @@
     </div>
   </div>
 
+  <!-- Modal: Scan Figurinhas -->
+  <div class="modal-overlay" id="scanModalOverlay">
+    <div class="modal modal-lg">
+      <div class="modal-header">
+        <h2>📸 Scanear Figurinhas</h2>
+        <button class="modal-close" id="scanModalClose">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="scan-options">
+          <button class="btn-primary" id="scanCameraBtn">📷 Tirar Foto</button>
+          <button class="btn-secondary" id="scanUploadBtn">📁 Fazer Upload</button>
+        </div>
+        <input type="file" id="scanFileInput" accept="image/*" style="display: none;">
+        <input type="file" id="scanCameraInput" accept="image/*" capture="environment" style="display: none;">
+        <div id="scanPreview" style="display: none; margin-top: 20px; text-align: center;">
+          <img id="scanPreviewImg" style="max-width: 100%; max-height: 300px; border-radius: 8px;">
+        </div>
+        <button class="btn-primary" id="scanProcessBtn" style="display: none; margin-top: 15px; width: 100%;">Processar Foto</button>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" id="scanModalCancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Result -->
+  <div class="modal-overlay" id="resultModalOverlay">
+    <div class="modal modal-lg">
+      <div class="modal-header">
+        <h2>✅ Resultado do Scan</h2>
+        <button class="modal-close" id="resultModalClose">×</button>
+      </div>
+      <div class="modal-body" id="resultModalContent">
+        <!-- Será preenchido dinamicamente -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn-primary" id="resultModalOk">Confirmar e Fechar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="js/supabase.js"></script>
   <script src="js/utils.js"></script>
