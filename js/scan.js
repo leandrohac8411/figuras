@@ -16,7 +16,7 @@ const GROQ_API_KEY = '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';
 const GROQ_API_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
 // Model configuration for vision tasks
-const GROQ_MODEL = 'pixtral-12b'; // Groq's vision model for image analysis
+const GROQ_MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct'; // Multimodal model for image analysis
 
 // Vision prompt templates
 const FIGURINHA_DETECTION_PROMPT = `
