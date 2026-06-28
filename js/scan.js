@@ -12,11 +12,11 @@
 // ============================================================================
 
 // Load API key from environment
-const GROQ_API_KEY = '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'; // Replace with actual key from Groq
+const GROQ_API_KEY = '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'; // Replace with actual key from Groq
 const GROQ_API_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
 // Model configuration for vision tasks
-const GROQ_VISION_MODEL = 'llama-2-vision-90b'; // Latest Groq vision model
+const GROQ_MODEL = 'llama-3.2-90b-vision-preview'; // Latest Groq vision model
 
 // Vision prompt templates
 const FIGURINHA_DETECTION_PROMPT = `
@@ -253,7 +253,7 @@ async function callGroqVision(photoDataUri, paisSigla) {
   const enhancedPrompt = `${FIGURINHA_DETECTION_PROMPT}\n\nCountry context: ${paisSigla}. Focus on finding figurinhas from this country.`;
 
   const payload = {
-    model: GROQ_VISION_MODEL,
+    model: GROQ_MODEL,
     messages: [
       {
         role: 'user',
