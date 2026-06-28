@@ -315,41 +315,38 @@ async function callGroqVision(photoDataUri, paisSigla) {
 
 /**
  * Process scan results and update database
- * Toggle figurinhas and add duplicates
- * @param {Array} codesDetected - Array of figurinha objects detected
+ * Since Groq detects EMPTY slots, we invert: mark the ones NOT detected as owned
+ * @param {Array} codesDetected - Array of figurinha objects detected (these are EMPTY slots)
  * @param {string} paisSigla - Country code
  */
 async function processScanResults(codesDetected, paisSigla) {
-  console.log(`[SCAN] Processing ${codesDetected.length} detected figurinhas`);
+  console.log(`[SCAN] Processing ${codesDetected.length} empty slots detected`);
 
-  const codeCount = {};
+  // Get all figurinhas for this country
+  const allFigurinhas = await getFigurinhasByPais(paisSigla);
+  console.log(`[SCAN] Total figurinhas for ${paisSigla}: ${allFigurinhas.length}`);
 
-  // Count occurrences of each code
+  // Extract codes from detected empty slots
+  const emptySlots = new Set();
   codesDetected.forEach(fig => {
     const code = fig.number || fig.codigo;
     if (code) {
-      codeCount[code] = (codeCount[code] || 0) + 1;
+      emptySlots.add(code);
     }
   });
 
-  // Process each unique code
-  for (const [code, count] of Object.entries(codeCount)) {
-    try {
-      // Mark the figurinha as owned (toggle to true)
-      await toggleFigurinha(code);
+  console.log(`[SCAN] Empty slots: ${Array.from(emptySlots).join(', ')}`);
 
-      // If count > 1, add duplicates
-      // count = 2 means 1 marked + 1 duplicate
-      // count = 3 means 1 marked + 2 duplicates, etc.
-      if (count > 1) {
-        for (let i = 1; i < count; i++) {
-          await addDuplicata(code);
-        }
+  // Mark all figurinhas NOT in the empty slots as owned
+  for (const figurinha of allFigurinhas) {
+    if (!emptySlots.has(figurinha.codigo)) {
+      try {
+        // This figurinha exists (is not empty), mark as owned
+        await toggleFigurinha(figurinha.codigo);
+        console.log(`[SCAN] Marked as owned: ${figurinha.codigo}`);
+      } catch (error) {
+        console.error(`[SCAN] Error processing ${figurinha.codigo}:`, error);
       }
-
-      console.log(`[SCAN] Processed ${code}: marked + ${count - 1} duplicates`);
-    } catch (error) {
-      console.error(`[SCAN] Error processing ${code}:`, error);
     }
   }
 
